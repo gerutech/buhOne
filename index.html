@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>buhOne</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+      defer
+    ></script>
+    <script src="js/index.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__wrap">
+          <div class="header__logo">
+            <img src="img/icons/logo.svg" alt="logo" />
+            <span>BuhOne</span>
+          </div>
+          <div class="header__container">
+            <div class="header__info">
+              <div class="header__box">
+                <div class="header__icon">
+                  <img src="img/icons/phone.svg" alt="phone icon" />
+                </div>
+                <a href="tel:+71112223344" class="header__value"
+                  >8 (111) 222-33-44</a
+                >
+              </div>
+              <div class="header__box">
+                <div class="header__icon">
+                  <img src="img/icons/time.svg" alt="clock icon" />
+                </div>
+                <div class="header__value">Пн-Пт 10:00-18:00</div>
+              </div>
+              <div class="header__box">
+                <div class="header__icon">
+                  <img src="img/icons/email.svg" alt="envelope icon" />
+                </div>
+                <a href="mailto:order@buhone.ru" class="header__value"
+                  >order@buhone.ru</a
+                >
+              </div>
+              <div class="header__box">
+                <div class="header__icon">
+                  <img src="img/icons/location.svg" alt="" />
+                </div>
+                <address class="header__value">Невский пр. 130</address>
+              </div>
+            </div>
+            <nav class="header__menu">
+              <ul>
+                <li><a href="#promo">Главная</a></li>
+                <li><a href="#services">услуги</a></li>
+                <li><a href="#clients">кейсы</a></li>
+                <li><a href="#about">о компании</a></li>
+                <li><a href="#order">контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="promo" id="promo">
+      <div class="swiper promo__swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="promo__slide swiper-slide">
+            <div class="promo__bg">
+              <img src="img/promo/promo-bg.jpg" alt="" />
+            </div>
+            <div class="wrapper">
+              <div class="promo__wrap">
+                <h1 class="promo__title title">
+                  Бухгалтерские услуги в Санкт-Петербурге
+                </h1>
+                <button class="promo__btn btn">Наша презентация</button>
+              </div>
+            </div>
+          </div>
+          <div class="promo__slide swiper-slide">
+            <div class="promo__bg">
+              <img src="img/promo/promo-bg.jpg" alt="" />
+            </div>
+            <div class="wrapper">
+              <div class="promo__wrap">
+                <h1 class="promo__title title">
+                  Бухгалтерские услуги в Москве
+                </h1>
+                <button class="promo__btn btn">Наша презентация</button>
+              </div>
+            </div>
+          </div>
+          <div class="promo__slide swiper-slide">
+            <div class="promo__bg">
+              <img src="img/promo/promo-bg.jpg" alt="" />
+            </div>
+            <div class="wrapper">
+              <div class="promo__wrap">
+                <h1 class="promo__title title">
+                  Бухгалтерские услуги в Санкт-Петербурге
+                </h1>
+                <button class="promo__btn btn">Наша презентация</button>
+              </div>
+            </div>
+          </div>
+          <div class="promo__slide swiper-slide">
+            <div class="promo__bg">
+              <img src="img/promo/promo-bg.jpg" alt="" />
+            </div>
+            <div class="wrapper">
+              <div class="promo__wrap">
+                <h1 class="promo__title title">
+                  Бухгалтерские услуги в Москве
+                </h1>
+                <button class="promo__btn btn">Наша презентация</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="promo__bottom">
+        <div class="wrapper">
+          <div class="promo__nav">
+            <div class="swiper-pagination swiper-pagination_white"></div>
+            <div class="arrows arrows_white">
+              <div class="arrow arrow_prev">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_2_32)">
+                    <path
+                      d="M4.56397 7.49961L11.3382 0.725363C11.5048 0.558757 11.5048 0.29156 11.3382 0.124954C11.1716 -0.0416514 10.9044 -0.0416514 10.7378 0.124954L3.66179 7.20097C3.49518 7.36758 3.49518 7.63478 3.66179 7.80138L10.7378 14.8743C10.8195 14.956 10.9296 15 11.0364 15C11.1433 15 11.2533 14.9591 11.3351 14.8743C11.5017 14.7077 11.5017 14.4405 11.3351 14.2739L4.56397 7.49961Z"
+                      fill="white"
+                    />
+                  </g>
+                  <defs>
+                    <clippath id="clip0_2_32">
+                      <rect width="15" height="15" fill="white" />
+                    </clippath>
+                  </defs>
+                </svg>
+              </div>
+              <div class="arrow arrow_next">
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_2_50)">
+                    <path
+                      d="M10.436 7.50039L3.66175 14.2746C3.49515 14.4412 3.49515 14.7084 3.66175 14.875C3.82836 15.0417 4.09555 15.0417 4.26216 14.875L11.3382 7.79903C11.5048 7.63242 11.5048 7.36522 11.3382 7.19862L4.26216 0.125741C4.18043 0.0440098 4.0704 6.46293e-07 3.96352 6.55637e-07C3.85665 6.6498e-07 3.74662 0.0408666 3.66489 0.125741C3.49829 0.292346 3.49829 0.559543 3.66489 0.726148L10.436 7.50039Z"
+                      fill="white"
+                    />
+                  </g>
+                  <defs>
+                    <clippath id="clip0_2_50">
+                      <rect
+                        width="15"
+                        height="15"
+                        fill="white"
+                        transform="translate(15 15) rotate(180)"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="services bg-gray section">
+      <div class="wrapper">
+        <div class="top">
+          <div class="services__caption caption">Наши услуги</div>
+          <div class="services__title title">Мы специализируемся</div>
+        </div>
+        <div class="services__row">
+          <a class="services__col">
+            <div class="services__img">
+              <img src="img/services/services-bg.jpg" alt="" />
+            </div>
+            <div class="services__col-caption caption">
+              Бухгалтерское обслуживание
+            </div>
+          </a>
+          <a class="services__col">
+            <div class="services__img">
+              <img src="img/services/services-bg.jpg" alt="" />
+            </div>
+            <div class="services__col-caption caption">
+              Бухгалтерское обслуживание
+            </div>
+          </a>
+          <a class="services__col">
+            <div class="services__img">
+              <img src="img/services/services-bg.jpg" alt="" />
+            </div>
+            <div class="services__col-caption caption">
+              Бухгалтерское обслуживание
+            </div> </a
+          ><a class="services__col">
+            <div class="services__img">
+              <img src="img/services/services-bg.jpg" alt="" />
+            </div>
+            <div class="services__col-caption caption">
+              Бухгалтерское обслуживание
+            </div> </a
+          ><a class="services__col">
+            <div class="services__img">
+              <img src="img/services/services-bg.jpg" alt="" />
+            </div>
+            <div class="services__col-caption caption">
+              Бухгалтерское обслуживание
+            </div> </a
+          ><a class="services__col">
+            <div class="services__img">
+              <img src="img/services/services-bg.jpg" alt="" />
+            </div>
+            <div class="services__col-caption caption">
+              Бухгалтерское обслуживание
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about section">
+      <div class="wrapper">
+        <div class="about__wrap">
+          <div class="about__left">
+            <div class="top">
+              <div class="about__caption caption">О нас</div>
+              <div class="about__title title">
+                Компания <span>ИвановПром</span>
+              </div>
+            </div>
+
+            <div class="about__desc">
+              Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+              вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
+              на латинице с начала XVI века. В то время некий безымянный
+              печатник создал большую коллекцию размеров и форм шрифтов,
+              используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не
+              только успешно пережил без заметных изменений пять веков, но и
+              перешагнул в электронный дизайн.
+            </div>
+          </div>
+          <div class="about__right">
+            <a href="#" class="about__col">
+              <div class="about__number">90</div>
+              <div class="about__col-caption">
+                Завершено крупных&nbsp;сделок
+              </div>
+              <div class="about__link">Все кейсы</div>
+            </a>
+            <a href="#" class="about__col">
+              <div class="about__number">90</div>
+              <div class="about__col-caption">
+                Завершено крупных&NonBreakingSpace;сделок
+              </div>
+              <div class="about__link">Все кейсы</div>
+            </a>
+            <a href="#" class="about__col">
+              <div class="about__number">90</div>
+              <div class="about__col-caption">
+                Завершено крупных&nbsp;сделок
+              </div>
+              <div class="about__link">Все кейсы</div>
+            </a>
+            <a href="#" class="about__col">
+              <div class="about__number">90</div>
+              <div class="about__col-caption">
+                Завершено крупных&nbsp;сделок
+              </div>
+              <div class="about__link">Все кейсы</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="clients" class="clients bg-gray">
+      <div class="wrapper">
+        <div class="top">
+          <div class="clients__caption caption">Наши клиенты</div>
+          <div class="clients__title title">С нами работают</div>
+        </div>
+        <div class="swiper clients__swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="clients__slide swiper-slide">
+              <div class="clients__img">
+                <img src="img/clients/microsoft-logo.png" alt="" />
+              </div>
+            </div>
+            <div class="clients__slide swiper-slide">
+              <div class="clients__img">
+                <img src="img/clients/microsoft-logo.png" alt="" />
+              </div>
+            </div>
+            <div class="clients__slide swiper-slide">
+              <div class="clients__img">
+                <img src="img/clients/microsoft-logo.png" alt="" />
+              </div>
+            </div>
+            <div class="clients__slide swiper-slide">
+              <div class="clients__img">
+                <img src="img/clients/microsoft-logo.png" alt="" />
+              </div>
+            </div>
+            <div class="clients__slide swiper-slide">
+              <div class="clients__img">
+                <img src="img/clients/microsoft-logo.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clients__nav">
+          <div class="swiper-pagination"></div>
+          <div class="arrows">
+            <div class="arrow arrow_prev">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_2_32)">
+                  <path
+                    d="M4.56397 7.49961L11.3382 0.725363C11.5048 0.558757 11.5048 0.29156 11.3382 0.124954C11.1716 -0.0416514 10.9044 -0.0416514 10.7378 0.124954L3.66179 7.20097C3.49518 7.36758 3.49518 7.63478 3.66179 7.80138L10.7378 14.8743C10.8195 14.956 10.9296 15 11.0364 15C11.1433 15 11.2533 14.9591 11.3351 14.8743C11.5017 14.7077 11.5017 14.4405 11.3351 14.2739L4.56397 7.49961Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <!-- <clippath id="clip0_2_32">
+                    <rect width="15" height="15" fill="white" />
+                  </clippath> -->
+                </defs>
+              </svg>
+            </div>
+            <div class="arrow arrow_next">
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_2_50)">
+                  <path
+                    d="M10.436 7.50039L3.66175 14.2746C3.49515 14.4412 3.49515 14.7084 3.66175 14.875C3.82836 15.0417 4.09555 15.0417 4.26216 14.875L11.3382 7.79903C11.5048 7.63242 11.5048 7.36522 11.3382 7.19862L4.26216 0.125741C4.18043 0.0440098 4.0704 6.46293e-07 3.96352 6.55637e-07C3.85665 6.6498e-07 3.74662 0.0408666 3.66489 0.125741C3.49829 0.292346 3.49829 0.559543 3.66489 0.726148L10.436 7.50039Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <!-- <clippath id="clip0_2_50">
+                    <rect
+                      width="15"
+                      height="15"
+                      fill="white"
+                      transform="translate(15 15) rotate(180)"
+                    />
+                  </clippath>
+                   -->
+                </defs>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section testimonials">
+      <div class="wrapper">
+        <div class="top">
+          <div class="testimonials__caption caption">Отзывы</div>
+          <div class="testimonials__title title">Ваши благодарности</div>
+        </div>
+        <div class="swiper testimonials__swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="testimonials__slide swiper-slide">
+              <div class="testimonials__container">
+                <div class="testimonials__desc">
+                  Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                  вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
+                  текстов на латинице с начала XVI века. В то время некий
+                  безымянный печатник создал большую коллекцию размеров и форм
+                  шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem
+                  Ipsum - это текст-"рыба", часто используемый в печати и
+                  вэб-дизайне.
+                </div>
+                <div class="testimonials__author">
+                  <div class="testimonials__avatar">
+                    <img src="img/testimonials/avatar.png" alt="" />
+                  </div>
+                  <div class="testimonials__author-box">
+                    <div class="testimonials__name">Екатерина Иванова</div>
+                    <div class="testimonials__value">
+                      Директор ООО “Раз-два”
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonials__slide swiper-slide">
+              <div class="testimonials__container">
+                <div class="testimonials__desc">
+                  Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                  вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
+                  текстов на латинице с начала XVI века. В то время некий
+                  безымянный печатник создал большую коллекцию размеров и форм
+                  шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem
+                  Ipsum - это текст-"рыба", часто используемый в печати и
+                  вэб-дизайне.
+                </div>
+                <div class="testimonials__author">
+                  <div class="testimonials__avatar">
+                    <img src="img/testimonials/avatar.png" alt="" />
+                  </div>
+                  <div class="testimonials__author-box">
+                    <div class="testimonials__name">Екатерина Иванова</div>
+                    <div class="testimonials__value">
+                      Директор ООО “Раз-два”
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials__nav">
+          <div class="swiper-pagination"></div>
+          <div class="arrows">
+            <div class="arrow arrow_prev">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_2_32)">
+                  <path
+                    d="M4.56397 7.49961L11.3382 0.725363C11.5048 0.558757 11.5048 0.29156 11.3382 0.124954C11.1716 -0.0416514 10.9044 -0.0416514 10.7378 0.124954L3.66179 7.20097C3.49518 7.36758 3.49518 7.63478 3.66179 7.80138L10.7378 14.8743C10.8195 14.956 10.9296 15 11.0364 15C11.1433 15 11.2533 14.9591 11.3351 14.8743C11.5017 14.7077 11.5017 14.4405 11.3351 14.2739L4.56397 7.49961Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <!-- <clippath id="clip0_2_32">
+                    <rect width="15" height="15" fill="white" />
+                  </clippath> -->
+                </defs>
+              </svg>
+            </div>
+            <div class="arrow arrow_next">
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_2_50)">
+                  <path
+                    d="M10.436 7.50039L3.66175 14.2746C3.49515 14.4412 3.49515 14.7084 3.66175 14.875C3.82836 15.0417 4.09555 15.0417 4.26216 14.875L11.3382 7.79903C11.5048 7.63242 11.5048 7.36522 11.3382 7.19862L4.26216 0.125741C4.18043 0.0440098 4.0704 6.46293e-07 3.96352 6.55637e-07C3.85665 6.6498e-07 3.74662 0.0408666 3.66489 0.125741C3.49829 0.292346 3.49829 0.559543 3.66489 0.726148L10.436 7.50039Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <!-- <clippath id="clip0_2_50">
+                    <rect
+                      width="15"
+                      height="15"
+                      fill="white"
+                      transform="translate(15 15) rotate(180)"
+                    />
+                  </clippath>
+                   -->
+                </defs>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="order" class="order section">
+      <div class="wrapper">
+        <div class="order__body">
+          <div class="order__wrap">
+            <div class="order__title title">Связь с нами</div>
+            <div class="order__desc">
+              У вас остались вопросы? Напишите нам - мы ответим в&nbsp;ближайшее
+              время!
+            </div>
+            <div class="order__items">
+              <div class="order__item">
+                <div class="order__icon">
+                  <img src="img/order/order-phone.svg" alt="" />
+                </div>
+                <a class="order__link" href="tel:+71112223344"
+                  >+7 (111) 222-33-44</a
+                >
+              </div>
+              <div class="order__item">
+                <div class="order__icon">
+                  <img src="img/order/order-mail.svg" alt="" />
+                </div>
+                <a class="order__link" href="mailto:order@bu-one.ru"
+                  >order@bu-one.ru</a
+                >
+              </div>
+            </div>
+          </div>
+          <form action="#" class="order__form">
+            <div class="order__form-body">
+              <div class="order__box">
+                <div class="order__caption">Имя</div>
+                <input
+                  type="text"
+                  class="order__field field"
+                  placeholder="Иван"
+                  name="name"
+                />
+              </div>
+              <div class="order__box">
+                <div class="order__caption">Фамилия</div>
+                <input
+                  type="text"
+                  class="order__field field"
+                  placeholder="Иванов"
+                  name="surname"
+                />
+              </div>
+              <div class="order__box order__box_full">
+                <div class="order__caption">Coобщение</div>
+                <textarea
+                  type="text"
+                  class="order__field field"
+                  placeholder="Ваше сообщение"
+                  name="message"
+                ></textarea>
+              </div>
+            </div>
+            <div class="order__btn">
+              <button class="btn">Отправить сообщение</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__wrap">
+          <div class="footer__copyright">
+            2019 (с) Все права защищены. БухОне.ру
+          </div>
+          <div class="footer__developer">Разработано: BuhOne</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
