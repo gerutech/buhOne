@@ -2,14 +2,17 @@ const burgerEl = document.querySelector(".burger");
 const menu = document.querySelector(".header__container");
 if (burgerEl) {
   burgerEl.addEventListener("click", function (e) {
+    console.log("hamburger clicked");
     this.classList.toggle("active");
     document.querySelector(".header__container").classList.toggle("active");
     document.body.classList.toggle("lock");
   });
   menu.addEventListener("click", function () {
+    console.log("menu clicked");
+    document.body.classList.remove("lock");
     burgerEl.classList.toggle("active");
     this.classList.toggle("active");
-    document.body.classList.toggle("lock");
+    document.body.classList.remove("lock");
   });
 }
 const swiper = new Swiper(".promo__swiper", {
